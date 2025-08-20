@@ -11,7 +11,7 @@ function App() {
     console.log("Todos in App:", todos); 
 
     return (
-        <main className='py-10 h-screen space-y-6'>
+        <main className='py-10 h-screen space-y-6 bg-slate-900 text-white'>
             <h1 className="text-3xl font-bold text-center">Your Todos</h1>
             <div className='max-w-lg mx-auto'>
                 <AddTodoForm onSubmit={addTodo} />
